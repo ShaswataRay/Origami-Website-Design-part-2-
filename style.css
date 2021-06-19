@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+.bodyText {
+    color: white;
+    text-align: center;
+    background-color: darkslategrey;
+    border-radius: 10px;
+}
+
+p { 
+    font-family: Blackadder ITC; 
+        font-size:x-large;
+}
+
+li {
+    font-family:French Script MT;
+    font-size:x-large;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    font-size: 30px;
+    font-family: Vladimir Script;
+    font-weight: 400;
+    border-radius: 50px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.origami {
+    border-radius: 30px;
+    background-color: white;
+
+    width: 310px;
+    font-family: fantasy;
+}
